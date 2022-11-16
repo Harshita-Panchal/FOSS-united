@@ -1,3 +1,4 @@
+/* Style for every element */
 * {
   padding: 0;
   margin: 0;
@@ -8,6 +9,7 @@ body {
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
+/* navbar CSS start */
 .navbar ul {
   display: flex;
   gap: 4px;
@@ -58,7 +60,9 @@ body {
   font-size: 25px;
 }
 
-/* ------------ */
+/* Navbar CSS end */
+
+/* ------------------------------------ */
 p {
   color: #616161;
 }
@@ -112,14 +116,18 @@ button {
   font-weight: 500;
 }
 
-span{
+span {
   color: #08b74f;
   cursor: pointer;
 }
-span:hover{
+
+span:hover {
   color: green;
   text-decoration: underline;
 }
+
+/* HOW IT WORKS */
+
 .container-2 h3 {
   font-size: 1.9rem;
 }
@@ -163,6 +171,8 @@ hr {
   margin-bottom: 1rem;
 }
 
+/* Recent grants section CSS start */
+
 .col-row {
   display: flex;
   justify-content: space-between;
@@ -185,16 +195,25 @@ hr {
   color: #11823e;
   text-decoration: underline;
 }
+
 .period {
   line-height: 2.5;
 }
-.period-info{
+
+.period-info {
   line-height: 2.5;
 }
-.period p{
+
+.period p {
   color: #757575;
   font-weight: 700;
 }
+
+/* Recent grants section CSS end */
+
+/* ************************************************************ */
+
+/* Apply for funding section  CSS start */
 #apply {
   padding: 6rem 5rem;
 }
@@ -229,11 +248,11 @@ hr {
   padding: 8px;
   margin-top: 1rem;
 }
+/* Apply for funding section  CSS end */
 
+/* *********************************************************** */
 
-
-/* FOOTER */
-
+/* Footer  start */
 .container-box {
   padding: 0 90px;
 }
@@ -267,7 +286,6 @@ footer {
 }
 
 .col ul li {
-  text-transform: capitalize;
   color: #ccc;
   margin-bottom: 1rem;
   font-weight: 300px;
@@ -284,15 +302,11 @@ footer {
   background-color: #ffffff;
 }
 
-@media(max-width: 550px) {
-  .col {
-    width: 100%;
-  }
-}
 
 img {
   height: 1.5rem;
 }
+
 
 .row2 .add {
   color: #ccc;
@@ -329,14 +343,26 @@ img {
 .fa-brands {
   font-size: 25px;
 }
-.footer-hr{
+
+.footer-hr {
   max-width: 80rem;
   margin: 1rem auto;
 }
+
 .social-media:hover {
   color: #757575;
 }
-/* --------- */
+/* Footer end */
+
+/* ************************************************************ */
+
+/* Media Query for responsive  start */
+
+@media(max-width: 550px) {
+  .col {
+    width: 100%;
+  }
+}
 
 @media(max-width: 600px) {
   #apply h2 {
@@ -362,10 +388,12 @@ img {
   .contain {
     padding: 2rem;
   }
+
   #Recent-grants {
     font-size: 1.4rem;
   }
-  h4{
+
+  h4 {
     font-size: 1.1rem;
   }
 }
@@ -430,11 +458,12 @@ img {
     color: #08b74f;
   }
 }
+/* Media Query for responsive  end */
 
-/*  DROPDOWN */
+/* ******************************************************* */
 
+/*  Dropdown section Start*/
 #dropdown {
-  /* width: 150px; */
   position: relative;
 }
 
@@ -498,7 +527,6 @@ img {
 }
 
 
-/* ---- */
 #dropdown2 {
   position: relative;
 }
@@ -561,3 +589,4 @@ img {
 .dropli2 a {
   padding: 0;
 }
+/*  Dropdown section End*/

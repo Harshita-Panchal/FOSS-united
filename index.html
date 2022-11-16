@@ -6,47 +6,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FOSS united</title>
+    <!-- Main styles -->
     <link rel="stylesheet" href="index.css">
+    <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 
 <body>
-
+    <!-- Navbar  -->
     <nav class="navbar">
         <ul>
-          <li class="logo"><img src="https://fossunited.org//files/fu.png"></li>
-          <li onclick="myFunction()" class="navbar-toggle"><i class="fa-solid fa-bars"></i></li>
-          <ul id="hide">
-            <li class="navbar-links"> <a href="https://mon.school/">Mon.School</a></li>
-            <li class="navbar-links" id="grants"> <a href="https://fossunited.org/grants">Grants</a></li>
-            <li class="navbar-links"> <a href="https://fossunited.org/foss-pledge">FOSS Pledge</a></li>
-            <li class="navbar-links" id="dropdown"> <a href="#" class="click">Events <i class="fa-solid fa-sort-down"></i>
-              </a>
-              <ul class="list">
-                <li class="dropli"><a href="#">Events page</a></li>
-                <li class="dropli"><a href="#">Monthly Meetup</a></li>
-                <li class="dropli" id="dropdown"><a href="#" class="click">Conference <i
-                      class="fa-solid fa-caret-right"></i></a>
+            <!--  Foss united website logo image -->
+            <li class="logo"><img src="https://fossunited.org//files/fu.png"></li>
+            <li onclick="myFunction()" class="navbar-toggle"><i class="fa-solid fa-bars"></i></li>
+            <ul id="hide">
+                <li class="navbar-links"> <a href="https://mon.school/">Mon.School</a></li>
+                <li class="navbar-links" id="grants"> <a href="https://fossunited.org/grants">Grants</a></li>
+                <li class="navbar-links"> <a href="https://fossunited.org/foss-pledge">FOSS Pledge</a></li>
+                <li class="navbar-links" id="dropdown"> <a href="#" class="click">Events <i
+                            class="fa-solid fa-sort-down"></i>
+                    </a>
+                    <!-- Event Dropdown -->
+                    <ul class="list">
+                        <li class="dropli"><a href="#">Events page</a></li>
+                        <li class="dropli"><a href="#">Monthly Meetup</a></li>
+                        <li class="dropli" id="dropdown"><a href="#" class="click">Conference <i
+                                    class="fa-solid fa-caret-right"></i></a></li>
+                        <li class="dropli"><a href="#">FOSS Hack 2021</a></li>
+                        <li class="dropli"><a href="#">FOSS Hack 2020</a></li>
+                        <li class="dropli"><a href="#">IndiaOS 2020</a></li>
+                        <li class="dropli"><a href="#">First Commit</a></li>
+                    </ul>
                 </li>
-                <li class="dropli"><a href="#">FOSS Hack 2021</a></li>
-                <li class="dropli"><a href="#">FOSS Hack 2020</a></li>
-                <li class="dropli"><a href="#">IndiaOS 2020</a></li>
-                <li class="dropli"><a href="#">First Commit</a></li>
-              </ul>
-            </li>
-            <li class="navbar-links" id="dropdown2"> <a href="#" class="click2">About <i class="fa-solid fa-sort-down"></i>
-              </a>
-              <ul class="list2">
-                <li class="dropli2"><a href="#">About FOSS United</a></li>
-                <li class="dropli2"><a href="#">Blog</a></li>
-                <li class="dropli2"><a href="#">Forum</a></li>
-              </ul>
-            </li>
-            <li class="navbar-links"> <a href="https://fossunited.org/loginv">Login</a></li>
-          </ul>
+                <li class="navbar-links" id="dropdown2"> <a href="#" class="click2">About <i
+                            class="fa-solid fa-sort-down"></i>
+                    </a>
+                    <!-- About Dropdown -->
+                    <ul class="list2">
+                        <li class="dropli2"><a href="#">About FOSS United</a></li>
+                        <li class="dropli2"><a href="#">Blog</a></li>
+                        <li class="dropli2"><a href="#">Forum</a></li>
+                    </ul>
+                </li>
+                <!-- image for navbar logo (desktop and moblie both) -->
+                <li class="navbar-links"> <a href="https://fossunited.org/loginv">Login</a></li>
+            </ul>
         </ul>
-      </nav>
+    </nav>
+<!-- navbar end -->
 
+<!-- Intro section -->
     <div class="container1">
         <div class="contain">
             <h1>Funding and grants</h1>
@@ -54,8 +63,11 @@
                 quality FOSS projects in India.</p>
             <button> Apply for funding </button>
         </div>
+        <!-- Big profile image for (desktop only) -->
         <img class="contain-img" src="https://fossunited.org/files/FOSS%20grants%20hero.png">
     </div>
+
+    <!-- HOW IT WORKS -->
     <Div class="main-container">
         <section id="container-2">
             <div class="container-2">
@@ -69,7 +81,8 @@
                     <p><strong>FOSS community</strong>: Using FOSS for social good, defending digital rights and
                         privacy.
                     </p>
-                    <p><strong>FOSS events and hackathons</strong>See the <span>event and hackathon grant</span> program.
+                    <p><strong>FOSS events and hackathons</strong>See the <span>event and hackathon grant</span>
+                        program.
                     </p>
                     <h3 id="Eligibility">Eligibility</h3>
                     <p>Any person or organization building FOSS technologies in India or using FOSS for social good can
@@ -83,6 +96,8 @@
             </div>
         </section>
         <br> <br>
+
+<!-- Recent grants section 1 -->
         <section>
             <div class="col-row">
                 <div>
@@ -105,6 +120,7 @@
             </div>
         </section>
         <hr>
+        <!-- Recent grants section 2 -->
         <section>
             <div class="col-row">
                 <div>
@@ -129,6 +145,7 @@
             </div>
         </section>
         <hr>
+        <!-- Recent grants section 3 -->
         <section>
             <div class="col-row">
                 <div>
@@ -150,6 +167,7 @@
             </div>
         </section>
         <hr>
+        <!-- Recent grants section 4 -->
         <section>
             <div class="col-row">
                 <div>
@@ -172,6 +190,7 @@
             </div>
         </section>
         <hr>
+        <!-- Recent grants section 5 -->
         <section>
             <div class="col-row">
                 <div>
@@ -195,6 +214,7 @@
             </div>
         </section>
         <hr>
+        <!-- Recent grants section 6 -->
         <section>
             <div class="col-row">
                 <div>
@@ -217,6 +237,7 @@
             </div>
         </section>
         <hr>
+        <!-- Recent grants section 7 -->
         <section>
             <div class="col-row">
                 <div>
@@ -239,6 +260,7 @@
             </div>
         </section>
         <hr>
+        <!-- Recent grants section 8 -->
         <section>
             <div class="col-row">
                 <div>
@@ -261,6 +283,7 @@
             </div>
         </section>
         <hr>
+        <!-- Recent grants section 9 -->
         <section>
             <div class="col-row">
                 <div>
@@ -283,6 +306,7 @@
             </div>
         </section>
         <hr>
+        <!-- Recent grants section 10 -->
         <section>
             <div class="col-row">
                 <div>
@@ -304,6 +328,7 @@
             </div>
         </section>
         <hr>
+        <!-- Recent grants section 11 -->
         <section>
             <div class="col-row">
                 <div>
@@ -329,6 +354,7 @@
             </div>
         </section>
         <hr>
+        <!-- Recent grants section 12 -->
         <section>
             <div class="col-row">
                 <div>
@@ -353,6 +379,7 @@
             </div>
         </section>
         <hr>
+        <!-- Recent grants section 13 -->
         <section>
             <div class="col-row">
                 <div>
@@ -375,6 +402,7 @@
             </div>
         </section>
         <hr>
+        <!-- Recent grants section 14 -->
         <section>
             <div class="col-row">
                 <div>
@@ -399,6 +427,7 @@
     </div>
     </section>
 
+    <!-- Apply for funding section start -->
     <section id="apply">
         <div class="apply-div1">
             <div class="apply-div2">
@@ -408,10 +437,16 @@
             </div>
         </div>
     </section>
+
+    <!-- Apply for funding section end -->
     </Div>
+
+    <!-- Footer section  -->
+
     <footer>
         <div class="container-box">
             <div id="footer-img">
+                <!-- image for footer (desktop and moblie both) -->
                 <img class="footer-img" src="https://fossunited.org/files/logo618eee.svg">
             </div>
             <div class="row">
@@ -457,6 +492,7 @@
                         <li>Tech for NPOs</li>
                     </ul>
                 </div>
+                <!-- Footer Social Media icons -->
                 <div class="col">
                     <h5>Social Media</h5>
                     <ul>
@@ -465,6 +501,7 @@
                         <li class="socail-media"><i class="fa-brands fa-youtube"></i></li>
                     </ul>
                 </div>
+                <!-- end Footer Social Media Icons -->
             </div>
             <hr class="footer-hr">
             <div class="footer-info">
@@ -480,6 +517,7 @@
             </div>
         </div>
     </footer>
+
     <script src="index.js"></script>
 </body>
 
